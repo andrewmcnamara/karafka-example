@@ -1,5 +1,5 @@
 # karafka-example
-Karafa Example App
+Karafka Example App
 
 
 ## Installing
@@ -17,7 +17,7 @@ Karafa Example App
 ## Sending test messages
 - rake waterdrop:send
 
-Or if you hav kafkacat installed
+Or if you have kafkacat installed
 `kafkacat -b 127.0.0.1:9094 -t topic1 -P message.json`
 
 
