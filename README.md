@@ -14,6 +14,11 @@ Karafa Example App
 - Start the karfka server `bundle exec karafka server`
 
 
-### Sending Messages
+## Sending test messages
 - rake waterdrop:send
+
+Or if you hav kafkacat installed
+`kafkacat -b 127.0.0.1:9094 -t topic1 -P message.json`
+
+
 
